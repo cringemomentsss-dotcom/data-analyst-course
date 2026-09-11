@@ -1,0 +1,45 @@
+# данные
+db/out/
+data/raw/
+data/interim/
+sprint-18-pyspark/project/data/out/
+projects/diplom/db/raw/
+*.csv
+!sprint-*/data/*.csv
+*.parquet
+*.db
+!sql-practice/casino.db
+
+# секреты
+.env
+.env.*
+*.pem
+credentials*.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# jupyter
+*-checkpoint.ipynb
+
+# macos
+.DS_Store
+
+# tableau
+*.twbr
+*.hyper
+Book*.twb
+
+# airflow
+airflow/logs/
+airflow/plugins/
+airflow/standalone_admin_password.txt
+
+# служебный документ с личными данными и локальными путями
+{edu} {guide} передача курса другому агенту*.md
