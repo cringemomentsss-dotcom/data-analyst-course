@@ -114,6 +114,7 @@ psql: up       ## интерактивная консоль
 	docker compose exec postgres psql -U analyst -d casino
 
 check: up      ## быстрая проверка, что база на месте
+	$(DB) -c "\\dt casino.*"
 	$(DB) -c "SET search_path TO casino; \
 	  SELECT 'users' t, count(*) FROM users UNION ALL \
 	  SELECT 'visitors', count(*) FROM visitors UNION ALL \
