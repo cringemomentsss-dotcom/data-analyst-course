@@ -26,7 +26,7 @@
 
 ## Стек
 
-PostgreSQL 17 · Python 3.12 (pandas, scipy, statsmodels, scikit-learn) · Tableau Public · ClickHouse · PySpark · Apache Airflow · Docker · Git
+PostgreSQL 17 · Python 3.13 (pandas, scipy, statsmodels, scikit-learn) · Tableau Public · ClickHouse · PySpark · Apache Airflow · Docker · Git
 
 ## Как запустить
 
